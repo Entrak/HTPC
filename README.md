@@ -1,4 +1,4 @@
-# HTPC
+# HTPC launchpage
 Code I use for my HTPC: HTML, CSS
 
 This is a simple, yet effective startpage for my HTPC.
