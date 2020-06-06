@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Media startpage</title>
+<style>
+<!-- Placement of meteogram. !-->
+#yr {
+	margin-left: 20%;
+	margin-top: 4%;
+	}
+#yr: img {
+	vertical-align: center;
+	}
+
+<!-- Placement of clickable image-links to services. !-->
+
+div.gallery {
+	margin: 1px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+	float: left;
+	width: 180px;
+	height: 85px;
+}
+
+div.gallery:hover {
+	opacity: 0.6;
+}
+
+div.gallery img {
+	display: block;
+	border-radius: 10px;
+	margin-top: auto;
+	margin-bottom: auto;
+    width: 100%;
+    height: 100%;
+	
+}
+
+body {
+	background-color: #ffffff
+}
+</style>
+</head>
+<body>
+
+<!-- Gallery style presentation of clickable image links to various services. !-->
+
+<div id="yr">
+	<!-- Meteogram link from YR.no: Go to YR.no, search for your desired location, select "Hour by hour",
+		 locate "avansert_metogram.png" in the sourcecode and get the link to the meteogram. 
+	!-->
+	<img src="https://www.yr.no/place/Norway/Oslo/Oslo/Oslo/avansert_meteogram.png" align="center">
+</div>
+
+<div class="gallery">
+  <a target="_self" href="http://TFC.tv">
+    <img src="TFC.png" alt="TFC.TV" width="200" height="100" class="center">
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_self" href="http://www.twitch.tv">
+    <img src="twitch.png" alt="Twitch" width="200" height="100" class="center">
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_self" href="http://www.netflix.com">
+    <img src="Netflix.png" alt="Netflix" width="200" height="100" class="center">
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_self" href="https://tv.nrk.no/direkte/nrk1">
+    <img src="NRK_logo.png" alt="NRK" width="200" height="100">
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_self" href="https://YouTube.com">
+    <img src="YouTube.png" alt="YouTube" width="200" height="100">
+  </a>
+</div>
+<div class="gallery">
+  <a target="_self" href="http://plexserver:32400/web/">
+    <img src="plex.png" alt="Plex Server" width="200" height="100">
+  </a>
+</div>
+</body>
+</html>
