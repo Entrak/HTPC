@@ -1,3 +1,4 @@
+![alt text](https://github.com/Entrak/HTPC/blob/master/launchpage.png?raw=true)
 # HTPC launchpage
 Code I use for my HTPC: HTML, CSS
 
